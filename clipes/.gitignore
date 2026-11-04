@@ -1,0 +1,5 @@
+# Vídeos de filmes (direitos autorais): ficam fora do repositório
+*.mp4
+*.mov
+*.jpg
+*.png
