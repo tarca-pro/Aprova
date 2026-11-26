@@ -3,7 +3,10 @@
 
 export type CaptionStyle = 'comic' | 'clean';
 
-export type Word = {text: string; start: number; end: number};
+export type Word = {text: string; start: number; end: number; emph?: boolean};
+
+/** Trecho do clipe na linha do tempo (em sequência). `src` opcional para usar outro arquivo (ex.: slow-motion pré-renderizado). */
+export type Segment = {src?: string; from: number; to: number; speed?: number};
 
 export type TrackPoint = {t: number; x: number; y: number};
 
@@ -33,7 +36,7 @@ export type CircleFx = {
 export type TransitionType = 'flash' | 'leak' | 'zoomBlur';
 export type TransitionFx = {at: number; type: TransitionType; sfx?: boolean};
 
-export type SfxFx = {at: number; src: string; volume?: number};
+export type SfxFx = {at: number; src: string; volume?: number; duration?: number};
 
 export type ShortProps = {
   style: CaptionStyle;
@@ -41,8 +44,17 @@ export type ShortProps = {
   clip: string; // arquivo em public/ (ex: "input/clip.mp4") ou URL
   clipStartFrom?: number; // segundos a pular no início do clipe
   clipLoop?: boolean;
+  /** Se definido, substitui clip/clipStartFrom: monta a linha do tempo com estes trechos. */
+  segments?: Segment[];
   music?: string;
+  musicStartFrom?: number; // segundo da música que toca no frame 0
+  musicFadeOut?: number; // segundos de fade no final
   musicVolume?: number; // padrão 0.18 com narração / 0.6 sem
+  /** Batidas (segundos do vídeo) → zoom-punch no clipe */
+  beats?: number[];
+  beatZoom?: number; // padrão 1.07
+  /** Tremidas de câmera (impacto) */
+  shakes?: {at: number; dur?: number; amount?: number}[];
   narration?: string;
   narrationVolume?: number;
   clipVolume?: number; // som original do clipe (padrão 0)

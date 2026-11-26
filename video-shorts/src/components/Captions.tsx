@@ -104,6 +104,10 @@ export const Captions: React.FC<{
           right: 0,
           top: y * height,
           translate: '0 -50%',
+          // palavra de ênfase: entra grande (pop) e assenta 30% maior
+          scale: w.emph
+            ? interpolate(local, [0, 3, 6], [2.4, 1.5, 1.6], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'})
+            : 1,
           textAlign: 'center',
           fontFamily: 'Montserrat',
           fontWeight: 800,
