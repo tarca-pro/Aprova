@@ -7,7 +7,7 @@
     "studio": "remotion studio src/index.ts",
     "prepare-video": "node scripts/prepare.mjs",
     "sfx": "bash scripts/make-sfx.sh",
-    "render": "remotion render src/index.ts CuriosidadeShort out/video.mp4 --props=props.json",
+    "render": "remotion render src/index.ts CuriosidadeShort out/video.mp4 --props=props.json && bash scripts/master.sh out/video.mp4",
     "still": "remotion still src/index.ts CuriosidadeShort out/still.png --props=props.json"
   },
   "dependencies": {

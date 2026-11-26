@@ -1,0 +1,440 @@
+{
+  "style": "clean",
+  "handle": "@ClarkClips",
+  "captionY": 0.77,
+  "durationInSeconds": 19.9,
+  "clip": "input/snow.mp4",
+  "segments": [
+    {
+      "from": 12.3,
+      "to": 14.65
+    },
+    {
+      "from": 2.0,
+      "to": 13.0
+    },
+    {
+      "src": "input/snow_slow.mp4",
+      "from": 0,
+      "to": 3.1666666666666665
+    },
+    {
+      "from": 14.8,
+      "to": 18.183333333333334
+    }
+  ],
+  "clipVolume": 0,
+  "narration": "input/narracao_sync.wav",
+  "narrationVolume": 1.0,
+  "music": "input/montagem.m4a",
+  "musicStartFrom": 12.45,
+  "musicFadeOut": 0.5,
+  "musicVolume": 1,
+  "musicEnvelope": [
+    [
+      0,
+      0.3
+    ],
+    [
+      2.3000000000000003,
+      0.3
+    ],
+    [
+      2.35,
+      0.42
+    ],
+    [
+      17.02,
+      0.36
+    ],
+    [
+      17.12,
+      0.95
+    ],
+    [
+      17.67,
+      0.95
+    ],
+    [
+      17.87,
+      0.42
+    ],
+    [
+      19.9,
+      0.42
+    ]
+  ],
+  "words": [
+    {
+      "text": "ele",
+      "start": 0.05,
+      "end": 0.302
+    },
+    {
+      "text": "pulou",
+      "start": 0.302,
+      "end": 0.747
+    },
+    {
+      "text": "um",
+      "start": 0.747,
+      "end": 0.922
+    },
+    {
+      "text": "cânion",
+      "start": 0.922,
+      "end": 1.272
+    },
+    {
+      "text": "de",
+      "start": 1.272,
+      "end": 1.447
+    },
+    {
+      "text": "cabeça",
+      "start": 1.447,
+      "end": 1.798
+    },
+    {
+      "text": "pra",
+      "start": 1.798,
+      "end": 2.016
+    },
+    {
+      "text": "baixo",
+      "start": 2.016,
+      "end": 2.45
+    },
+    {
+      "text": "na",
+      "start": 2.45,
+      "end": 2.622
+    },
+    {
+      "text": "beira",
+      "start": 2.622,
+      "end": 2.923
+    },
+    {
+      "text": "do",
+      "start": 2.923,
+      "end": 3.096
+    },
+    {
+      "text": "penhasco",
+      "start": 3.096,
+      "end": 3.526
+    },
+    {
+      "text": "ele",
+      "start": 3.526,
+      "end": 3.741
+    },
+    {
+      "text": "olhou",
+      "start": 3.741,
+      "end": 4.043
+    },
+    {
+      "text": "pro",
+      "start": 4.043,
+      "end": 4.258
+    },
+    {
+      "text": "abismo",
+      "start": 4.258,
+      "end": 4.602
+    },
+    {
+      "text": "lá",
+      "start": 4.602,
+      "end": 4.774
+    },
+    {
+      "text": "embaixo",
+      "start": 4.774,
+      "end": 5.28
+    },
+    {
+      "text": "qualquer",
+      "start": 5.28,
+      "end": 5.792
+    },
+    {
+      "text": "erro",
+      "start": 5.792,
+      "end": 6.099
+    },
+    {
+      "text": "ali",
+      "start": 6.099,
+      "end": 6.355
+    },
+    {
+      "text": "seria",
+      "start": 6.355,
+      "end": 6.713
+    },
+    {
+      "text": "fatal",
+      "start": 6.713,
+      "end": 7.2
+    },
+    {
+      "text": "mas",
+      "start": 7.2,
+      "end": 7.465
+    },
+    {
+      "text": "em",
+      "start": 7.465,
+      "end": 7.677
+    },
+    {
+      "text": "vez",
+      "start": 7.677,
+      "end": 7.941
+    },
+    {
+      "text": "de",
+      "start": 7.941,
+      "end": 8.153
+    },
+    {
+      "text": "desistir",
+      "start": 8.153,
+      "end": 8.861
+    },
+    {
+      "text": "ele",
+      "start": 8.861,
+      "end": 9.101
+    },
+    {
+      "text": "pegou",
+      "start": 9.101,
+      "end": 9.437
+    },
+    {
+      "text": "velocidade",
+      "start": 9.437,
+      "end": 10.014
+    },
+    {
+      "text": "e",
+      "start": 10.014,
+      "end": 10.158
+    },
+    {
+      "text": "foi",
+      "start": 10.158,
+      "end": 10.398
+    },
+    {
+      "text": "direto",
+      "start": 10.398,
+      "end": 10.783
+    },
+    {
+      "text": "pra",
+      "start": 10.783,
+      "end": 11.023
+    },
+    {
+      "text": "rampa",
+      "start": 11.023,
+      "end": 11.5
+    },
+    {
+      "text": "sem",
+      "start": 11.5,
+      "end": 11.825
+    },
+    {
+      "text": "frear",
+      "start": 11.825,
+      "end": 12.42
+    },
+    {
+      "text": "e",
+      "start": 12.42,
+      "end": 12.558
+    },
+    {
+      "text": "se",
+      "start": 12.558,
+      "end": 12.742
+    },
+    {
+      "text": "jogou",
+      "start": 12.742,
+      "end": 13.3
+    },
+    {
+      "text": "girando",
+      "start": 13.3,
+      "end": 13.811
+    },
+    {
+      "text": "no",
+      "start": 13.811,
+      "end": 14.038
+    },
+    {
+      "text": "ar",
+      "start": 14.038,
+      "end": 14.265
+    },
+    {
+      "text": "sobre",
+      "start": 14.265,
+      "end": 14.662
+    },
+    {
+      "text": "as",
+      "start": 14.662,
+      "end": 14.889
+    },
+    {
+      "text": "pedras",
+      "start": 14.889,
+      "end": 15.344
+    },
+    {
+      "text": "e…",
+      "start": 15.85,
+      "end": 16.173
+    },
+    {
+      "text": "cravou",
+      "start": 17.1,
+      "end": 17.78,
+      "emph": true
+    },
+    {
+      "text": "você",
+      "start": 17.78,
+      "end": 18.016
+    },
+    {
+      "text": "teria",
+      "start": 18.016,
+      "end": 18.291
+    },
+    {
+      "text": "coragem",
+      "start": 18.291,
+      "end": 18.981
+    },
+    {
+      "text": "comenta",
+      "start": 18.981,
+      "end": 19.258
+    },
+    {
+      "text": "aqui",
+      "start": 19.258,
+      "end": 19.444
+    },
+    {
+      "text": "embaixo",
+      "start": 19.444,
+      "end": 19.85
+    }
+  ],
+  "arrows": [
+    {
+      "start": 0,
+      "end": 2.2,
+      "x": 0.45,
+      "y": 0.5,
+      "angle": -25,
+      "size": 0.25,
+      "track": [
+        {
+          "t": 0.5,
+          "x": 0.45,
+          "y": 0.5
+        },
+        {
+          "t": 1.1,
+          "x": 0.5,
+          "y": 0.36
+        },
+        {
+          "t": 1.7,
+          "x": 0.58,
+          "y": 0.33
+        }
+      ]
+    }
+  ],
+  "circles": [
+    {
+      "start": 3.4,
+      "end": 4.95,
+      "x": 0.6,
+      "y": 0.43,
+      "radius": 0.13,
+      "track": [
+        {
+          "t": 3.4,
+          "x": 0.6,
+          "y": 0.42
+        },
+        {
+          "t": 3.75,
+          "x": 0.6,
+          "y": 0.44
+        },
+        {
+          "t": 4.55,
+          "x": 0.5,
+          "y": 0.45
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "at": 2.35,
+      "type": "flash"
+    }
+  ],
+  "beats": [
+    17.12,
+    17.582,
+    18.045,
+    18.508,
+    18.97,
+    19.433,
+    19.895
+  ],
+  "beatZoom": 1.08,
+  "shakes": [
+    {
+      "at": 17.12,
+      "dur": 0.45,
+      "amount": 30
+    }
+  ],
+  "sfx": [
+    {
+      "at": 0,
+      "src": "sfx/riser.wav",
+      "volume": 0.3,
+      "duration": 2.35
+    },
+    {
+      "at": 12.45,
+      "src": "sfx/whoosh.wav",
+      "volume": 0.5
+    },
+    {
+      "at": 17.12,
+      "src": "sfx/impact.wav",
+      "volume": 0.7
+    }
+  ],
+  "kenBurns": 1.05
+}

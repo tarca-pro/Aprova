@@ -50,6 +50,8 @@ export type ShortProps = {
   musicStartFrom?: number; // segundo da música que toca no frame 0
   musicFadeOut?: number; // segundos de fade no final
   musicVolume?: number; // padrão 0.18 com narração / 0.6 sem
+  /** Envelope de volume da música: [[segundo, volume], ...] (multiplica musicVolume). Útil para abaixar sob a voz e subir no clímax. */
+  musicEnvelope?: [number, number][];
   /** Batidas (segundos do vídeo) → zoom-punch no clipe */
   beats?: number[];
   beatZoom?: number; // padrão 1.07

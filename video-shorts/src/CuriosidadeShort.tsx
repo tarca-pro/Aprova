@@ -101,9 +101,12 @@ const Music: React.FC<ShortProps & {base: number}> = (p) => {
       src={src(p.music!)}
       trimBefore={Math.round((p.musicStartFrom ?? 0) * fps)}
       loop={!p.musicStartFrom}
-      volume={(f) =>
-        p.base * interpolate(f, [0, 3, durationInFrames - fade, durationInFrames], [0, 1, 1, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'})
-      }
+      volume={(f) => {
+        const env = p.musicEnvelope?.length
+          ? interpolate(f / fps, p.musicEnvelope.map((k) => k[0]), p.musicEnvelope.map((k) => k[1]), {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'})
+          : 1;
+        return p.base * env * interpolate(f, [0, 3, durationInFrames - fade, durationInFrames], [0, 1, 1, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
+      }}
     />
   );
 };
